@@ -1,18 +1,14 @@
+#pragma once
 #include <iostream>
 #include <vector>
 
-
-// 基因類
+using namespace std;
 class GENE {
     public:
-        // n為個體基因數
         GENE();
-        // 產生隨機基因
-        std::vector<int> get_random_gene(int n, int max, int min);
-        // 打印所有基因
         void print_gene();
-        // 基因
-        std::vector<int> gene;
-        // 基因的適應度
-        int value;
+        void get_new_gene();
+    private:
+        vector<int> gene;
+        int adaptive_value;
 };

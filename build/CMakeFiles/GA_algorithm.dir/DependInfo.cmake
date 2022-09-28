@@ -8,9 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Danny/Desktop/GA/src/GA.cpp" "CMakeFiles/GA_algorithm.dir/src/GA.cpp.obj" "gcc" "CMakeFiles/GA_algorithm.dir/src/GA.cpp.obj.d"
-  "C:/Users/Danny/Desktop/GA/src/GENE.cpp" "CMakeFiles/GA_algorithm.dir/src/GENE.cpp.obj" "gcc" "CMakeFiles/GA_algorithm.dir/src/GENE.cpp.obj.d"
-  "C:/Users/Danny/Desktop/GA/src/main.cpp" "CMakeFiles/GA_algorithm.dir/src/main.cpp.obj" "gcc" "CMakeFiles/GA_algorithm.dir/src/main.cpp.obj.d"
+  "C:/Users/Danny/Desktop/GA_algorithm/src/GA.cpp" "CMakeFiles/GA_algorithm.dir/src/GA.cpp.obj" "gcc" "CMakeFiles/GA_algorithm.dir/src/GA.cpp.obj.d"
+  "C:/Users/Danny/Desktop/GA_algorithm/src/GENE.cpp" "CMakeFiles/GA_algorithm.dir/src/GENE.cpp.obj" "gcc" "CMakeFiles/GA_algorithm.dir/src/GENE.cpp.obj.d"
   )
 
 # Targets to which this target links.

@@ -3,8 +3,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/GA_algorithm.dir/src/GA.cpp.obj.d"
   "CMakeFiles/GA_algorithm.dir/src/GENE.cpp.obj"
   "CMakeFiles/GA_algorithm.dir/src/GENE.cpp.obj.d"
-  "CMakeFiles/GA_algorithm.dir/src/main.cpp.obj"
-  "CMakeFiles/GA_algorithm.dir/src/main.cpp.obj.d"
   "GA_algorithm.exe"
   "GA_algorithm.exe.manifest"
   "GA_algorithm.pdb"

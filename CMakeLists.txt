@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0)
 project(GA_algorithm)
-include_directories(./include)
-set(SRC_LIST ./src/GA.cpp ./src/GENE.cpp ./src/main.cpp)
+set(SRC_LIST src/GA.cpp src/GENE.cpp)
+include_directories(include)
 add_executable(GA_algorithm ${SRC_LIST})
