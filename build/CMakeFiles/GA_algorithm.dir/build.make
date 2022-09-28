@@ -68,11 +68,26 @@ include CMakeFiles/GA_algorithm.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/GA_algorithm.dir/flags.make
 
+CMakeFiles/GA_algorithm.dir/src/main.cpp.obj: CMakeFiles/GA_algorithm.dir/flags.make
+CMakeFiles/GA_algorithm.dir/src/main.cpp.obj: CMakeFiles/GA_algorithm.dir/includes_CXX.rsp
+CMakeFiles/GA_algorithm.dir/src/main.cpp.obj: C:/Users/Danny/Desktop/GA_algorithm/src/main.cpp
+CMakeFiles/GA_algorithm.dir/src/main.cpp.obj: CMakeFiles/GA_algorithm.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Danny\Desktop\GA_algorithm\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GA_algorithm.dir/src/main.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GA_algorithm.dir/src/main.cpp.obj -MF CMakeFiles\GA_algorithm.dir\src\main.cpp.obj.d -o CMakeFiles\GA_algorithm.dir\src\main.cpp.obj -c C:\Users\Danny\Desktop\GA_algorithm\src\main.cpp
+
+CMakeFiles/GA_algorithm.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GA_algorithm.dir/src/main.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Danny\Desktop\GA_algorithm\src\main.cpp > CMakeFiles\GA_algorithm.dir\src\main.cpp.i
+
+CMakeFiles/GA_algorithm.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GA_algorithm.dir/src/main.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Danny\Desktop\GA_algorithm\src\main.cpp -o CMakeFiles\GA_algorithm.dir\src\main.cpp.s
+
 CMakeFiles/GA_algorithm.dir/src/GA.cpp.obj: CMakeFiles/GA_algorithm.dir/flags.make
 CMakeFiles/GA_algorithm.dir/src/GA.cpp.obj: CMakeFiles/GA_algorithm.dir/includes_CXX.rsp
 CMakeFiles/GA_algorithm.dir/src/GA.cpp.obj: C:/Users/Danny/Desktop/GA_algorithm/src/GA.cpp
 CMakeFiles/GA_algorithm.dir/src/GA.cpp.obj: CMakeFiles/GA_algorithm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Danny\Desktop\GA_algorithm\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GA_algorithm.dir/src/GA.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Danny\Desktop\GA_algorithm\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GA_algorithm.dir/src/GA.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GA_algorithm.dir/src/GA.cpp.obj -MF CMakeFiles\GA_algorithm.dir\src\GA.cpp.obj.d -o CMakeFiles\GA_algorithm.dir\src\GA.cpp.obj -c C:\Users\Danny\Desktop\GA_algorithm\src\GA.cpp
 
 CMakeFiles/GA_algorithm.dir/src/GA.cpp.i: cmake_force
@@ -87,7 +102,7 @@ CMakeFiles/GA_algorithm.dir/src/GENE.cpp.obj: CMakeFiles/GA_algorithm.dir/flags.
 CMakeFiles/GA_algorithm.dir/src/GENE.cpp.obj: CMakeFiles/GA_algorithm.dir/includes_CXX.rsp
 CMakeFiles/GA_algorithm.dir/src/GENE.cpp.obj: C:/Users/Danny/Desktop/GA_algorithm/src/GENE.cpp
 CMakeFiles/GA_algorithm.dir/src/GENE.cpp.obj: CMakeFiles/GA_algorithm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Danny\Desktop\GA_algorithm\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GA_algorithm.dir/src/GENE.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Danny\Desktop\GA_algorithm\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GA_algorithm.dir/src/GENE.cpp.obj"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GA_algorithm.dir/src/GENE.cpp.obj -MF CMakeFiles\GA_algorithm.dir\src\GENE.cpp.obj.d -o CMakeFiles\GA_algorithm.dir\src\GENE.cpp.obj -c C:\Users\Danny\Desktop\GA_algorithm\src\GENE.cpp
 
 CMakeFiles/GA_algorithm.dir/src/GENE.cpp.i: cmake_force
@@ -100,19 +115,21 @@ CMakeFiles/GA_algorithm.dir/src/GENE.cpp.s: cmake_force
 
 # Object files for target GA_algorithm
 GA_algorithm_OBJECTS = \
+"CMakeFiles/GA_algorithm.dir/src/main.cpp.obj" \
 "CMakeFiles/GA_algorithm.dir/src/GA.cpp.obj" \
 "CMakeFiles/GA_algorithm.dir/src/GENE.cpp.obj"
 
 # External object files for target GA_algorithm
 GA_algorithm_EXTERNAL_OBJECTS =
 
+GA_algorithm.exe: CMakeFiles/GA_algorithm.dir/src/main.cpp.obj
 GA_algorithm.exe: CMakeFiles/GA_algorithm.dir/src/GA.cpp.obj
 GA_algorithm.exe: CMakeFiles/GA_algorithm.dir/src/GENE.cpp.obj
 GA_algorithm.exe: CMakeFiles/GA_algorithm.dir/build.make
 GA_algorithm.exe: CMakeFiles/GA_algorithm.dir/linklibs.rsp
 GA_algorithm.exe: CMakeFiles/GA_algorithm.dir/objects1.rsp
 GA_algorithm.exe: CMakeFiles/GA_algorithm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Danny\Desktop\GA_algorithm\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable GA_algorithm.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Danny\Desktop\GA_algorithm\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable GA_algorithm.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\GA_algorithm.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
