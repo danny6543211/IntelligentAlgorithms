@@ -8,7 +8,7 @@
 GENE::GENE() {
     srand(time(NULL));
     this->get_new_gene();
-    this->adaptive_value = 0;
+    this->adaptive_value = this->calculate_adaptive_value();
 }
 
 void GENE::print_gene() {

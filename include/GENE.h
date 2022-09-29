@@ -13,7 +13,7 @@ class GENE {
         void get_new_gene();
         // 計算適值函數的值
         double calculate_adaptive_value();
-    private:
+    // private:
         // 基因
         vector<int> gene;
         // 基因的適應值
