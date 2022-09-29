@@ -443,12 +443,36 @@ CMakeFiles/Genetic_Algorithms.dir/src/main.cpp.obj: C:/Users/Danny/Desktop/Genet
   C:/MinGW/include/c++/11.2.0/bits/ostream.tcc \
   C:/MinGW/include/c++/11.2.0/istream \
   C:/MinGW/include/c++/11.2.0/bits/istream.tcc \
-  C:/Users/Danny/Desktop/Genetic\ Algorithms/include/GA.h \
+  C:/MinGW/include/c++/11.2.0/algorithm \
+  C:/MinGW/include/c++/11.2.0/utility \
+  C:/MinGW/include/c++/11.2.0/bits/stl_relops.h \
+  C:/MinGW/include/c++/11.2.0/bits/stl_algo.h \
+  C:/MinGW/include/c++/11.2.0/bits/algorithmfwd.h \
+  C:/MinGW/include/c++/11.2.0/bits/stl_heap.h \
+  C:/MinGW/include/c++/11.2.0/bits/stl_tempbuf.h \
+  C:/MinGW/include/c++/11.2.0/bits/uniform_int_dist.h \
+  C:/MinGW/include/c++/11.2.0/pstl/glue_algorithm_defs.h \
+  C:/MinGW/include/c++/11.2.0/functional \
+  C:/MinGW/include/c++/11.2.0/tuple \
+  C:/MinGW/include/c++/11.2.0/array \
+  C:/MinGW/include/c++/11.2.0/bits/uses_allocator.h \
+  C:/MinGW/include/c++/11.2.0/bits/invoke.h \
+  C:/MinGW/include/c++/11.2.0/bits/refwrap.h \
+  C:/MinGW/include/c++/11.2.0/bits/std_function.h \
+  C:/MinGW/include/c++/11.2.0/unordered_map \
+  C:/MinGW/include/c++/11.2.0/ext/aligned_buffer.h \
+  C:/MinGW/include/c++/11.2.0/bits/hashtable.h \
+  C:/MinGW/include/c++/11.2.0/bits/hashtable_policy.h \
+  C:/MinGW/include/c++/11.2.0/bits/node_handle.h \
+  C:/MinGW/include/c++/11.2.0/bits/unordered_map.h \
+  C:/MinGW/include/c++/11.2.0/bits/erase_if.h \
   C:/MinGW/include/c++/11.2.0/vector \
   C:/MinGW/include/c++/11.2.0/bits/stl_uninitialized.h \
   C:/MinGW/include/c++/11.2.0/bits/stl_vector.h \
   C:/MinGW/include/c++/11.2.0/bits/stl_bvector.h \
   C:/MinGW/include/c++/11.2.0/bits/vector.tcc \
+  C:/MinGW/include/c++/11.2.0/pstl/execution_defs.h \
+  C:/Users/Danny/Desktop/Genetic\ Algorithms/include/GA.h \
   C:/Users/Danny/Desktop/Genetic\ Algorithms/include/GENE.h \
   C:/Users/Danny/Desktop/Genetic\ Algorithms/include/global.h
 
@@ -496,6 +520,8 @@ C:/MinGW/include/c++/11.2.0/ostream:
 C:/MinGW/include/c++/11.2.0/iosfwd:
 
 C:/MinGW/x86_64-w64-mingw32/include/swprintf.inl:
+
+C:/MinGW/include/c++/11.2.0/bits/erase_if.h:
 
 C:/MinGW/include/c++/11.2.0/bits/stringfwd.h:
 
@@ -565,6 +591,8 @@ C:/MinGW/x86_64-w64-mingw32/include/process.h:
 
 C:/MinGW/include/c++/11.2.0/bits/exception.h:
 
+C:/MinGW/include/c++/11.2.0/bits/uses_allocator.h:
+
 C:/MinGW/include/c++/11.2.0/bits/exception_ptr.h:
 
 C:/MinGW/include/c++/11.2.0/bits/exception_defines.h:
@@ -631,6 +659,8 @@ C:/MinGW/x86_64-w64-mingw32/include/corecrt_startup.h:
 
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h:
 
+C:/MinGW/include/c++/11.2.0/utility:
+
 C:/MinGW/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h:
 
 C:/MinGW/x86_64-w64-mingw32/include/limits.h:
@@ -661,6 +691,8 @@ C:/MinGW/include/c++/11.2.0/string:
 
 C:/MinGW/include/c++/11.2.0/bits/allocator.h:
 
+C:/MinGW/include/c++/11.2.0/functional:
+
 C:/Users/Danny/Desktop/Genetic\ Algorithms/src/GENE.cpp:
 
 C:/MinGW/include/c++/11.2.0/x86_64-w64-mingw32/bits/c++allocator.h:
@@ -677,6 +709,8 @@ C:/MinGW/include/c++/11.2.0/backward/binders.h:
 
 C:/MinGW/include/c++/11.2.0/initializer_list:
 
+C:/MinGW/include/c++/11.2.0/bits/std_function.h:
+
 C:/MinGW/include/c++/11.2.0/ext/alloc_traits.h:
 
 C:/MinGW/include/c++/11.2.0/bits/basic_string.h:
@@ -688,6 +722,8 @@ C:/MinGW/include/c++/11.2.0/bits/stl_construct.h:
 C:/MinGW/include/c++/11.2.0/bits/functional_hash.h:
 
 C:/MinGW/include/c++/11.2.0/bits/string_view.tcc:
+
+C:/MinGW/include/c++/11.2.0/bits/algorithmfwd.h:
 
 C:/MinGW/include/c++/11.2.0/ext/string_conversions.h:
 
@@ -715,6 +751,8 @@ C:/MinGW/include/c++/11.2.0/bits/charconv.h:
 
 C:/MinGW/include/c++/11.2.0/bits/locale_classes.tcc:
 
+C:/MinGW/include/c++/11.2.0/bits/unordered_map.h:
+
 C:/MinGW/include/c++/11.2.0/system_error:
 
 C:/MinGW/include/c++/11.2.0/x86_64-w64-mingw32/bits/error_constants.h:
@@ -728,6 +766,8 @@ C:/MinGW/include/c++/11.2.0/bits/locale_facets.h:
 C:/MinGW/include/c++/11.2.0/cwctype:
 
 C:/MinGW/include/c++/11.2.0/x86_64-w64-mingw32/bits/ctype_base.h:
+
+C:/MinGW/include/c++/11.2.0/bits/invoke.h:
 
 C:/MinGW/include/c++/11.2.0/bits/streambuf_iterator.h:
 
@@ -752,6 +792,8 @@ C:/Users/Danny/Desktop/Genetic\ Algorithms/include/GA.h:
 C:/Users/Danny/Desktop/Genetic\ Algorithms/include/GENE.h:
 
 C:/Users/Danny/Desktop/Genetic\ Algorithms/include/global.h:
+
+C:/MinGW/include/c++/11.2.0/pstl/glue_algorithm_defs.h:
 
 C:/MinGW/include/c++/11.2.0/math.h:
 
@@ -778,3 +820,33 @@ C:/MinGW/include/c++/11.2.0/tr1/modified_bessel_func.tcc:
 C:/MinGW/include/c++/11.2.0/tr1/poly_hermite.tcc:
 
 C:/MinGW/include/c++/11.2.0/tr1/poly_laguerre.tcc:
+
+C:/MinGW/include/c++/11.2.0/algorithm:
+
+C:/MinGW/include/c++/11.2.0/bits/stl_relops.h:
+
+C:/MinGW/include/c++/11.2.0/bits/stl_algo.h:
+
+C:/MinGW/include/c++/11.2.0/bits/stl_heap.h:
+
+C:/MinGW/include/c++/11.2.0/bits/stl_tempbuf.h:
+
+C:/MinGW/include/c++/11.2.0/bits/uniform_int_dist.h:
+
+C:/MinGW/include/c++/11.2.0/tuple:
+
+C:/MinGW/include/c++/11.2.0/array:
+
+C:/MinGW/include/c++/11.2.0/bits/refwrap.h:
+
+C:/MinGW/include/c++/11.2.0/unordered_map:
+
+C:/MinGW/include/c++/11.2.0/ext/aligned_buffer.h:
+
+C:/MinGW/include/c++/11.2.0/bits/hashtable.h:
+
+C:/MinGW/include/c++/11.2.0/bits/hashtable_policy.h:
+
+C:/MinGW/include/c++/11.2.0/bits/node_handle.h:
+
+C:/MinGW/include/c++/11.2.0/pstl/execution_defs.h:

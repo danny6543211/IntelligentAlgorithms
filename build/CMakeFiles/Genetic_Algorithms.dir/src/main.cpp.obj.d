@@ -133,11 +133,34 @@ CMakeFiles/Genetic_Algorithms.dir/src/main.cpp.obj: \
  c:\mingw\include\c++\11.2.0\bits\ostream.tcc \
  c:\mingw\include\c++\11.2.0\istream \
  c:\mingw\include\c++\11.2.0\bits\istream.tcc \
- C:/Users/Danny/Desktop/GENETI~1/include/GA.h \
+ c:\mingw\include\c++\11.2.0\algorithm \
+ c:\mingw\include\c++\11.2.0\utility \
+ c:\mingw\include\c++\11.2.0\bits\stl_relops.h \
+ c:\mingw\include\c++\11.2.0\bits\stl_algo.h \
+ c:\mingw\include\c++\11.2.0\bits\algorithmfwd.h \
+ c:\mingw\include\c++\11.2.0\bits\stl_heap.h \
+ c:\mingw\include\c++\11.2.0\bits\stl_tempbuf.h \
+ c:\mingw\include\c++\11.2.0\bits\uniform_int_dist.h \
+ c:\mingw\include\c++\11.2.0\pstl\glue_algorithm_defs.h \
+ c:\mingw\include\c++\11.2.0\functional c:\mingw\include\c++\11.2.0\tuple \
+ c:\mingw\include\c++\11.2.0\array \
+ c:\mingw\include\c++\11.2.0\bits\uses_allocator.h \
+ c:\mingw\include\c++\11.2.0\bits\invoke.h \
+ c:\mingw\include\c++\11.2.0\bits\refwrap.h \
+ c:\mingw\include\c++\11.2.0\bits\std_function.h \
+ c:\mingw\include\c++\11.2.0\unordered_map \
+ c:\mingw\include\c++\11.2.0\ext\aligned_buffer.h \
+ c:\mingw\include\c++\11.2.0\bits\hashtable.h \
+ c:\mingw\include\c++\11.2.0\bits\hashtable_policy.h \
+ c:\mingw\include\c++\11.2.0\bits\node_handle.h \
+ c:\mingw\include\c++\11.2.0\bits\unordered_map.h \
+ c:\mingw\include\c++\11.2.0\bits\erase_if.h \
  c:\mingw\include\c++\11.2.0\vector \
  c:\mingw\include\c++\11.2.0\bits\stl_uninitialized.h \
  c:\mingw\include\c++\11.2.0\bits\stl_vector.h \
  c:\mingw\include\c++\11.2.0\bits\stl_bvector.h \
  c:\mingw\include\c++\11.2.0\bits\vector.tcc \
+ c:\mingw\include\c++\11.2.0\pstl\execution_defs.h \
+ C:/Users/Danny/Desktop/GENETI~1/include/GA.h \
  C:/Users/Danny/Desktop/GENETI~1/include/GENE.h \
  C:/Users/Danny/Desktop/GENETI~1/include/global.h

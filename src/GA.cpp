@@ -65,7 +65,7 @@ void GA::roulette_choice() {
 }
 
 void GA::cross() {
-
+    
 }
 
 double GA::find_the_best() {
@@ -76,4 +76,8 @@ double GA::find_the_best() {
             best = this->population[i].adaptive_value;
     }
     return best;
+}
+
+void sort() {
+    
 }

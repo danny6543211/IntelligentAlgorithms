@@ -18,6 +18,8 @@ class GA {
         void cross();
         // 找出種群基因中最高的適應值
         double find_the_best();
+        // 排序基因大小
+        void sort();
         // 種群
         vector<GENE> population;
         // 種群中最好的那個基因的適應值
