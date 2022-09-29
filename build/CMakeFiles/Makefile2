@@ -53,16 +53,16 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Danny\Desktop\GA_algorithm
+CMAKE_SOURCE_DIR = "C:\Users\Danny\Desktop\Genetic Algorithms"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Danny\Desktop\GA_algorithm\build
+CMAKE_BINARY_DIR = "C:\Users\Danny\Desktop\Genetic Algorithms\build"
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/GA_algorithm.dir/all
+all: CMakeFiles/Genetic_Algorithms.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -70,34 +70,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/GA_algorithm.dir/clean
+clean: CMakeFiles/Genetic_Algorithms.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/GA_algorithm.dir
+# Target rules for target CMakeFiles/Genetic_Algorithms.dir
 
 # All Build rule for target.
-CMakeFiles/GA_algorithm.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GA_algorithm.dir\build.make CMakeFiles/GA_algorithm.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GA_algorithm.dir\build.make CMakeFiles/GA_algorithm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Danny\Desktop\GA_algorithm\build\CMakeFiles --progress-num=1,2,3,4 "Built target GA_algorithm"
-.PHONY : CMakeFiles/GA_algorithm.dir/all
+CMakeFiles/Genetic_Algorithms.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Genetic_Algorithms.dir\build.make CMakeFiles/Genetic_Algorithms.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Genetic_Algorithms.dir\build.make CMakeFiles/Genetic_Algorithms.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Danny\Desktop\Genetic Algorithms\build\CMakeFiles" --progress-num=1,2,3,4 "Built target Genetic_Algorithms"
+.PHONY : CMakeFiles/Genetic_Algorithms.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/GA_algorithm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Danny\Desktop\GA_algorithm\build\CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/GA_algorithm.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Danny\Desktop\GA_algorithm\build\CMakeFiles 0
-.PHONY : CMakeFiles/GA_algorithm.dir/rule
+CMakeFiles/Genetic_Algorithms.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Danny\Desktop\Genetic Algorithms\build\CMakeFiles" 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Genetic_Algorithms.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Danny\Desktop\Genetic Algorithms\build\CMakeFiles" 0
+.PHONY : CMakeFiles/Genetic_Algorithms.dir/rule
 
 # Convenience name for target.
-GA_algorithm: CMakeFiles/GA_algorithm.dir/rule
-.PHONY : GA_algorithm
+Genetic_Algorithms: CMakeFiles/Genetic_Algorithms.dir/rule
+.PHONY : Genetic_Algorithms
 
 # clean rule for target.
-CMakeFiles/GA_algorithm.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GA_algorithm.dir\build.make CMakeFiles/GA_algorithm.dir/clean
-.PHONY : CMakeFiles/GA_algorithm.dir/clean
+CMakeFiles/Genetic_Algorithms.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Genetic_Algorithms.dir\build.make CMakeFiles/Genetic_Algorithms.dir/clean
+.PHONY : CMakeFiles/Genetic_Algorithms.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

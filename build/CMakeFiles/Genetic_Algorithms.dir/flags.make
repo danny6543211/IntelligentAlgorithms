@@ -4,7 +4,7 @@
 # compile CXX with C:/MinGW/bin/g++.exe
 CXX_DEFINES = 
 
-CXX_INCLUDES = @CMakeFiles/GA_algorithm.dir/includes_CXX.rsp
+CXX_INCLUDES = @CMakeFiles/Genetic_Algorithms.dir/includes_CXX.rsp
 
 CXX_FLAGS = 
 

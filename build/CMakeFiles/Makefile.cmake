@@ -28,7 +28,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.24/Modules/Platform/Windows-windres.cmake"
   "C:/Program Files/CMake/share/cmake-3.24/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake"
-  "C:/Users/Danny/Desktop/GA_algorithm/CMakeLists.txt"
+  "C:/Users/Danny/Desktop/Genetic Algorithms/CMakeLists.txt"
   "CMakeFiles/3.24.0-rc4/CMakeCCompiler.cmake"
   "CMakeFiles/3.24.0-rc4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.24.0-rc4/CMakeRCCompiler.cmake"
@@ -48,5 +48,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/GA_algorithm.dir/DependInfo.cmake"
+  "CMakeFiles/Genetic_Algorithms.dir/DependInfo.cmake"
   )

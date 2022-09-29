@@ -1,5 +1,5 @@
-CMakeFiles/GA_algorithm.dir/src/GA.cpp.obj: \
- C:\Users\Danny\Desktop\GA_algorithm\src\GA.cpp \
+CMakeFiles/Genetic_Algorithms.dir/src/GENE.cpp.obj: \
+ C:\Users\Danny\Desktop\Genetic\ Algorithms\src\GENE.cpp \
  c:\mingw\include\c++\11.2.0\iostream \
  c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++config.h \
  c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\os_defines.h \
@@ -133,11 +133,26 @@ CMakeFiles/GA_algorithm.dir/src/GA.cpp.obj: \
  c:\mingw\include\c++\11.2.0\bits\ostream.tcc \
  c:\mingw\include\c++\11.2.0\istream \
  c:\mingw\include\c++\11.2.0\bits\istream.tcc \
+ c:\mingw\include\c++\11.2.0\math.h c:\mingw\include\c++\11.2.0\cmath \
+ c:\mingw\x86_64-w64-mingw32\include\math.h \
+ c:\mingw\include\c++\11.2.0\bits\specfun.h \
+ c:\mingw\include\c++\11.2.0\limits \
+ c:\mingw\include\c++\11.2.0\tr1\gamma.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\special_function_util.h \
+ c:\mingw\include\c++\11.2.0\tr1\bessel_function.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\beta_function.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\ell_integral.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\exp_integral.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\hypergeometric.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\legendre_function.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\modified_bessel_func.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\poly_hermite.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\poly_laguerre.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\riemann_zeta.tcc \
+ C:/Users/Danny/Desktop/GENETI~1/include/GENE.h \
  c:\mingw\include\c++\11.2.0\vector \
  c:\mingw\include\c++\11.2.0\bits\stl_uninitialized.h \
  c:\mingw\include\c++\11.2.0\bits\stl_vector.h \
  c:\mingw\include\c++\11.2.0\bits\stl_bvector.h \
  c:\mingw\include\c++\11.2.0\bits\vector.tcc \
- C:/Users/Danny/Desktop/GA_algorithm/include/GA.h \
- C:/Users/Danny/Desktop/GA_algorithm/include/GENE.h \
- C:/Users/Danny/Desktop/GA_algorithm/include/global.h
+ C:/Users/Danny/Desktop/GENETI~1/include/global.h

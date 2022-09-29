@@ -1,5 +1,5 @@
-CMakeFiles/GA_algorithm.dir/src/main.cpp.obj: \
- C:\Users\Danny\Desktop\GA_algorithm\src\main.cpp \
+CMakeFiles/Genetic_Algorithms.dir/src/GA.cpp.obj: \
+ C:\Users\Danny\Desktop\Genetic\ Algorithms\src\GA.cpp \
  c:\mingw\include\c++\11.2.0\iostream \
  c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++config.h \
  c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\os_defines.h \
@@ -133,11 +133,11 @@ CMakeFiles/GA_algorithm.dir/src/main.cpp.obj: \
  c:\mingw\include\c++\11.2.0\bits\ostream.tcc \
  c:\mingw\include\c++\11.2.0\istream \
  c:\mingw\include\c++\11.2.0\bits\istream.tcc \
- C:/Users/Danny/Desktop/GA_algorithm/include/GA.h \
  c:\mingw\include\c++\11.2.0\vector \
  c:\mingw\include\c++\11.2.0\bits\stl_uninitialized.h \
  c:\mingw\include\c++\11.2.0\bits\stl_vector.h \
  c:\mingw\include\c++\11.2.0\bits\stl_bvector.h \
  c:\mingw\include\c++\11.2.0\bits\vector.tcc \
- C:/Users/Danny/Desktop/GA_algorithm/include/GENE.h \
- C:/Users/Danny/Desktop/GA_algorithm/include/global.h
+ C:/Users/Danny/Desktop/GENETI~1/include/GA.h \
+ C:/Users/Danny/Desktop/GENETI~1/include/GENE.h \
+ C:/Users/Danny/Desktop/GENETI~1/include/global.h

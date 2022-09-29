@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Danny\Desktop\GA_algorithm
+CMAKE_SOURCE_DIR = "C:\Users\Danny\Desktop\Genetic Algorithms"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Danny\Desktop\GA_algorithm\build
+CMAKE_BINARY_DIR = "C:\Users\Danny\Desktop\Genetic Algorithms\build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Danny\Desktop\GA_algorithm\build\CMakeFiles C:\Users\Danny\Desktop\GA_algorithm\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Danny\Desktop\Genetic Algorithms\build\CMakeFiles" "C:\Users\Danny\Desktop\Genetic Algorithms\build\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Danny\Desktop\GA_algorithm\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Danny\Desktop\Genetic Algorithms\build\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named GA_algorithm
+# Target rules for targets named Genetic_Algorithms
 
 # Build rule for target.
-GA_algorithm: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 GA_algorithm
-.PHONY : GA_algorithm
+Genetic_Algorithms: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Genetic_Algorithms
+.PHONY : Genetic_Algorithms
 
 # fast build rule for target.
-GA_algorithm/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GA_algorithm.dir\build.make CMakeFiles/GA_algorithm.dir/build
-.PHONY : GA_algorithm/fast
+Genetic_Algorithms/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Genetic_Algorithms.dir\build.make CMakeFiles/Genetic_Algorithms.dir/build
+.PHONY : Genetic_Algorithms/fast
 
 src/GA.obj: src/GA.cpp.obj
 .PHONY : src/GA.obj
 
 # target to build an object file
 src/GA.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GA_algorithm.dir\build.make CMakeFiles/GA_algorithm.dir/src/GA.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Genetic_Algorithms.dir\build.make CMakeFiles/Genetic_Algorithms.dir/src/GA.cpp.obj
 .PHONY : src/GA.cpp.obj
 
 src/GA.i: src/GA.cpp.i
@@ -141,7 +141,7 @@ src/GA.i: src/GA.cpp.i
 
 # target to preprocess a source file
 src/GA.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GA_algorithm.dir\build.make CMakeFiles/GA_algorithm.dir/src/GA.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Genetic_Algorithms.dir\build.make CMakeFiles/Genetic_Algorithms.dir/src/GA.cpp.i
 .PHONY : src/GA.cpp.i
 
 src/GA.s: src/GA.cpp.s
@@ -149,7 +149,7 @@ src/GA.s: src/GA.cpp.s
 
 # target to generate assembly for a file
 src/GA.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GA_algorithm.dir\build.make CMakeFiles/GA_algorithm.dir/src/GA.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Genetic_Algorithms.dir\build.make CMakeFiles/Genetic_Algorithms.dir/src/GA.cpp.s
 .PHONY : src/GA.cpp.s
 
 src/GENE.obj: src/GENE.cpp.obj
@@ -157,7 +157,7 @@ src/GENE.obj: src/GENE.cpp.obj
 
 # target to build an object file
 src/GENE.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GA_algorithm.dir\build.make CMakeFiles/GA_algorithm.dir/src/GENE.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Genetic_Algorithms.dir\build.make CMakeFiles/Genetic_Algorithms.dir/src/GENE.cpp.obj
 .PHONY : src/GENE.cpp.obj
 
 src/GENE.i: src/GENE.cpp.i
@@ -165,7 +165,7 @@ src/GENE.i: src/GENE.cpp.i
 
 # target to preprocess a source file
 src/GENE.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GA_algorithm.dir\build.make CMakeFiles/GA_algorithm.dir/src/GENE.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Genetic_Algorithms.dir\build.make CMakeFiles/Genetic_Algorithms.dir/src/GENE.cpp.i
 .PHONY : src/GENE.cpp.i
 
 src/GENE.s: src/GENE.cpp.s
@@ -173,7 +173,7 @@ src/GENE.s: src/GENE.cpp.s
 
 # target to generate assembly for a file
 src/GENE.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GA_algorithm.dir\build.make CMakeFiles/GA_algorithm.dir/src/GENE.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Genetic_Algorithms.dir\build.make CMakeFiles/Genetic_Algorithms.dir/src/GENE.cpp.s
 .PHONY : src/GENE.cpp.s
 
 src/main.obj: src/main.cpp.obj
@@ -181,7 +181,7 @@ src/main.obj: src/main.cpp.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GA_algorithm.dir\build.make CMakeFiles/GA_algorithm.dir/src/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Genetic_Algorithms.dir\build.make CMakeFiles/Genetic_Algorithms.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -189,7 +189,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GA_algorithm.dir\build.make CMakeFiles/GA_algorithm.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Genetic_Algorithms.dir\build.make CMakeFiles/Genetic_Algorithms.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -197,7 +197,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GA_algorithm.dir\build.make CMakeFiles/GA_algorithm.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Genetic_Algorithms.dir\build.make CMakeFiles/Genetic_Algorithms.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -208,7 +208,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... GA_algorithm
+	@echo ... Genetic_Algorithms
 	@echo ... src/GA.obj
 	@echo ... src/GA.i
 	@echo ... src/GA.s
