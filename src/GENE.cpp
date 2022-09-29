@@ -1,6 +1,7 @@
 #include <iostream>
 #include <stdlib.h>
 #include <time.h>
+#include <math.h>
 #include "GENE.h"
 #include "global.h"
 
@@ -18,6 +19,7 @@ void GENE::print_gene() {
         cout << *it;
         it++;
     }
+    cout << "   ";
 }
 
 void GENE::get_new_gene() {
@@ -25,4 +27,10 @@ void GENE::get_new_gene() {
     for (int i = 0; i < GENE_SIZE; i++) {
         this->gene.push_back(rand()%(GENE_MAX-GENE_MIN+1) - (GENE_MAX-GENE_MIN)/2);
     }
+}
+
+double GENE::calculate_adaptive_value() {
+    // funtion = 1 / (1 + abs(x1) + abs(x2) + abs(x3) + abs(x4));
+    this->adaptive_value = (double) 1 / (1 + abs(this->gene[0]) + abs(this->gene[1]) + abs(this->gene[2]) + abs(this->gene[3]));
+    return this->adaptive_value;
 }

@@ -22,15 +22,9 @@ void GA::print_all_gene() {
         cout.width(4);
         cout << gene_number << ":  ";
         it->print_gene();
+        cout << it->calculate_adaptive_value();
         cout << endl;
         gene_number++;
         it++;
     }
-}
-
-int main() {
-    GA test;
-    test.print_all_gene();
-    
-    return 0;
 }

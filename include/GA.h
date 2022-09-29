@@ -8,8 +8,12 @@ using namespace std;
 class GA {
     public:
         GA();
+        // 打印所有基因
         void print_all_gene();
-    // private:
+        // 
+
+        // 種群
         vector<GENE> population;
+        // 種群中最好的那個基因的適應值
         int best_one_value;
 };
