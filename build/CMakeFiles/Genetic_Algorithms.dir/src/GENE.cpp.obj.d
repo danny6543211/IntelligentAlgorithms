@@ -1,5 +1,5 @@
 CMakeFiles/Genetic_Algorithms.dir/src/GENE.cpp.obj: \
- C:\Users\Danny\Desktop\Genetic\ Algorithms\src\GENE.cpp \
+ C:\Users\Danny\Desktop\GeneticAlgorithms\src\GENE.cpp \
  c:\mingw\include\c++\11.2.0\iostream \
  c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++config.h \
  c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\os_defines.h \
@@ -149,10 +149,10 @@ CMakeFiles/Genetic_Algorithms.dir/src/GENE.cpp.obj: \
  c:\mingw\include\c++\11.2.0\tr1\poly_hermite.tcc \
  c:\mingw\include\c++\11.2.0\tr1\poly_laguerre.tcc \
  c:\mingw\include\c++\11.2.0\tr1\riemann_zeta.tcc \
- C:/Users/Danny/Desktop/GENETI~1/include/GENE.h \
+ C:/Users/Danny/Desktop/GeneticAlgorithms/include/GENE.h \
  c:\mingw\include\c++\11.2.0\vector \
  c:\mingw\include\c++\11.2.0\bits\stl_uninitialized.h \
  c:\mingw\include\c++\11.2.0\bits\stl_vector.h \
  c:\mingw\include\c++\11.2.0\bits\stl_bvector.h \
  c:\mingw\include\c++\11.2.0\bits\vector.tcc \
- C:/Users/Danny/Desktop/GENETI~1/include/global.h
+ C:/Users/Danny/Desktop/GeneticAlgorithms/include/global.h

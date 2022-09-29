@@ -1,3 +1,3 @@
-C:/Users/Danny/Desktop/Genetic Algorithms/build/CMakeFiles/Genetic_Algorithms.dir
-C:/Users/Danny/Desktop/Genetic Algorithms/build/CMakeFiles/edit_cache.dir
-C:/Users/Danny/Desktop/Genetic Algorithms/build/CMakeFiles/rebuild_cache.dir
+C:/Users/Danny/Desktop/GeneticAlgorithms/build/CMakeFiles/Genetic_Algorithms.dir
+C:/Users/Danny/Desktop/GeneticAlgorithms/build/CMakeFiles/edit_cache.dir
+C:/Users/Danny/Desktop/GeneticAlgorithms/build/CMakeFiles/rebuild_cache.dir

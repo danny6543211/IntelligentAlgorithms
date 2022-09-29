@@ -7,13 +7,19 @@
 #include "global.h"
 
 int main() {
-    vector<int> test = {1, 2, 3};
-    vector<int>::iterator it = test.begin();
-    test.erase(it+1);
-    it = test.begin();
-    while (it != test.end()) {
-        cout << *it;
-        it++;
+    
+    // 隨機種子
+    srand(time(NULL));
+
+    GA test;
+    test.print_all_gene();
+
+    for (int i = 0; i < 100; i++) {
+        test.roulette_choice(); 
+        test.cross();
     }
+    
+    test.print_all_gene();
+
     return 0;
 }

@@ -53,7 +53,6 @@ void GA::roulette_choice() {
     this->population.clear();
     for (int i = 0; i < POPULATION_SIZE; i++) {
         choice = (rand()/(double) RAND_MAX)*all_adaptive_value;
-        // 上面 ok
         double probability = 0;
         int index = 0;
         while (probability < choice) {
@@ -65,7 +64,12 @@ void GA::roulette_choice() {
 }
 
 void GA::cross() {
-    
+    this->sort();
+    int cross_count = POPULATION_SIZE * CORSS_RATE;
+    for (int i = 0; i < cross_count; i+=2) {
+        this->population[i].cross_to1(this->population[i+1]);
+        // this->population[i].cross_to2(this->population[i+1]);
+    }
 }
 
 double GA::find_the_best() {
@@ -78,6 +82,23 @@ double GA::find_the_best() {
     return best;
 }
 
-void sort() {
+void GA::sort() {
+    // 複製過去臨時數組
+    vector<GENE> temp;
+    for (int i = 0; i < POPULATION_SIZE; i++) {
+        temp.push_back(this->population[i]);
+    }
+    this->population.clear();
     
-}
+    for (int i = 0; i < POPULATION_SIZE; i++) {
+        int max_index = 0;
+        int index = 0;
+        for (; index < temp.size(); index++) {
+            if (temp[index].adaptive_value > temp[max_index].adaptive_value) {
+                max_index = index;
+            }
+        }
+        this->population.push_back(temp[max_index]);
+        temp.erase(temp.begin()+max_index);
+    }
+} 
