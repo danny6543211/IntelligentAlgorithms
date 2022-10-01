@@ -472,6 +472,30 @@ CMakeFiles/Genetic_Algorithms.dir/src/main.cpp.obj: C:/Users/Danny/Desktop/Genet
   C:/MinGW/include/c++/11.2.0/bits/stl_bvector.h \
   C:/MinGW/include/c++/11.2.0/bits/vector.tcc \
   C:/MinGW/include/c++/11.2.0/pstl/execution_defs.h \
+  C:/MinGW/include/c++/11.2.0/random \
+  C:/MinGW/include/c++/11.2.0/cmath \
+  C:/MinGW/x86_64-w64-mingw32/include/math.h \
+  C:/MinGW/include/c++/11.2.0/bits/specfun.h \
+  C:/MinGW/include/c++/11.2.0/limits \
+  C:/MinGW/include/c++/11.2.0/tr1/gamma.tcc \
+  C:/MinGW/include/c++/11.2.0/tr1/special_function_util.h \
+  C:/MinGW/include/c++/11.2.0/tr1/bessel_function.tcc \
+  C:/MinGW/include/c++/11.2.0/tr1/beta_function.tcc \
+  C:/MinGW/include/c++/11.2.0/tr1/ell_integral.tcc \
+  C:/MinGW/include/c++/11.2.0/tr1/exp_integral.tcc \
+  C:/MinGW/include/c++/11.2.0/tr1/hypergeometric.tcc \
+  C:/MinGW/include/c++/11.2.0/tr1/legendre_function.tcc \
+  C:/MinGW/include/c++/11.2.0/tr1/modified_bessel_func.tcc \
+  C:/MinGW/include/c++/11.2.0/tr1/poly_hermite.tcc \
+  C:/MinGW/include/c++/11.2.0/tr1/poly_laguerre.tcc \
+  C:/MinGW/include/c++/11.2.0/tr1/riemann_zeta.tcc \
+  C:/MinGW/include/c++/11.2.0/bits/random.h \
+  C:/MinGW/include/c++/11.2.0/x86_64-w64-mingw32/bits/opt_random.h \
+  C:/MinGW/include/c++/11.2.0/bits/random.tcc \
+  C:/MinGW/include/c++/11.2.0/numeric \
+  C:/MinGW/include/c++/11.2.0/bits/stl_numeric.h \
+  C:/MinGW/include/c++/11.2.0/bit \
+  C:/MinGW/include/c++/11.2.0/pstl/glue_numeric_defs.h \
   C:/Users/Danny/Desktop/GeneticAlgorithms/include/GA.h \
   C:/Users/Danny/Desktop/GeneticAlgorithms/include/GENE.h \
   C:/Users/Danny/Desktop/GeneticAlgorithms/include/global.h
@@ -539,6 +563,8 @@ C:/MinGW/x86_64-w64-mingw32/include/wchar.h:
 
 C:/MinGW/include/c++/11.2.0/clocale:
 
+C:/MinGW/include/c++/11.2.0/bit:
+
 C:/MinGW/include/c++/11.2.0/bits/cxxabi_init_exception.h:
 
 C:/MinGW/x86_64-w64-mingw32/include/stddef.h:
@@ -560,6 +586,8 @@ C:/MinGW/include/c++/11.2.0/bits/nested_exception.h:
 C:/MinGW/include/c++/11.2.0/bits/streambuf.tcc:
 
 C:/MinGW/include/c++/11.2.0/new:
+
+C:/MinGW/include/c++/11.2.0/bits/random.tcc:
 
 C:/MinGW/include/c++/11.2.0/cstdio:
 
@@ -850,3 +878,15 @@ C:/MinGW/include/c++/11.2.0/bits/hashtable_policy.h:
 C:/MinGW/include/c++/11.2.0/bits/node_handle.h:
 
 C:/MinGW/include/c++/11.2.0/pstl/execution_defs.h:
+
+C:/MinGW/include/c++/11.2.0/random:
+
+C:/MinGW/include/c++/11.2.0/bits/stl_numeric.h:
+
+C:/MinGW/include/c++/11.2.0/bits/random.h:
+
+C:/MinGW/include/c++/11.2.0/x86_64-w64-mingw32/bits/opt_random.h:
+
+C:/MinGW/include/c++/11.2.0/numeric:
+
+C:/MinGW/include/c++/11.2.0/pstl/glue_numeric_defs.h:

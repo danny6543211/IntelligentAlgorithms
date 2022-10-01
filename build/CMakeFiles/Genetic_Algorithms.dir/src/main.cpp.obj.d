@@ -161,6 +161,29 @@ CMakeFiles/Genetic_Algorithms.dir/src/main.cpp.obj: \
  c:\mingw\include\c++\11.2.0\bits\stl_bvector.h \
  c:\mingw\include\c++\11.2.0\bits\vector.tcc \
  c:\mingw\include\c++\11.2.0\pstl\execution_defs.h \
+ c:\mingw\include\c++\11.2.0\random c:\mingw\include\c++\11.2.0\cmath \
+ c:\mingw\x86_64-w64-mingw32\include\math.h \
+ c:\mingw\include\c++\11.2.0\bits\specfun.h \
+ c:\mingw\include\c++\11.2.0\limits \
+ c:\mingw\include\c++\11.2.0\tr1\gamma.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\special_function_util.h \
+ c:\mingw\include\c++\11.2.0\tr1\bessel_function.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\beta_function.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\ell_integral.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\exp_integral.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\hypergeometric.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\legendre_function.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\modified_bessel_func.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\poly_hermite.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\poly_laguerre.tcc \
+ c:\mingw\include\c++\11.2.0\tr1\riemann_zeta.tcc \
+ c:\mingw\include\c++\11.2.0\bits\random.h \
+ c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\opt_random.h \
+ c:\mingw\include\c++\11.2.0\bits\random.tcc \
+ c:\mingw\include\c++\11.2.0\numeric \
+ c:\mingw\include\c++\11.2.0\bits\stl_numeric.h \
+ c:\mingw\include\c++\11.2.0\bit \
+ c:\mingw\include\c++\11.2.0\pstl\glue_numeric_defs.h \
  C:/Users/Danny/Desktop/GeneticAlgorithms/include/GA.h \
  C:/Users/Danny/Desktop/GeneticAlgorithms/include/GENE.h \
  C:/Users/Danny/Desktop/GeneticAlgorithms/include/global.h
