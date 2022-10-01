@@ -8,7 +8,7 @@
 using namespace std;
 
 GA::GA() {
-    create_init_population();
+    // create_init_population();
     this->best_one_value = 0;
 }
 
@@ -25,7 +25,7 @@ void GA::print_all_gene() {
     vector<GENE>::iterator it = this->population.begin();
     int gene_number = 1;
     while (it != this->population.end()) {
-        cout.width(4);
+        cout.width(10);
         cout << gene_number << ":  ";
         it->print_gene();
         cout << it->adaptive_value;
@@ -67,8 +67,8 @@ void GA::cross() {
     this->sort();
     int cross_count = POPULATION_SIZE * CORSS_RATE;
     for (int i = 0; i < cross_count; i+=2) {
-        this->population[i].cross_to1(this->population[i+1]);
-        // this->population[i].cross_to2(this->population[i+1]);
+        // this->population[i].cross_to1(this->population[i+1]);
+        this->population[i].cross_to2(this->population[i+1]);
     }
 }
 
@@ -79,6 +79,7 @@ double GA::find_the_best() {
         if (this->population[i].adaptive_value > best)
             best = this->population[i].adaptive_value;
     }
+    this->best_one_value = best;
     return best;
 }
 
@@ -102,3 +103,33 @@ void GA::sort() {
         temp.erase(temp.begin()+max_index);
     }
 } 
+
+void GA::update_adaptive_value() {
+    vector<GENE>::iterator it = this->population.begin();
+    while (it != this->population.end()) {
+        it->adaptive_value = it->calculate_adaptive_value();
+        it++;
+    }
+}
+
+void GA::genetic_variation() {
+    int variation_count = POPULATION_SIZE * GENE_SIZE *VARIATION_RATE;
+    for (int i = 0; i < variation_count; i++) {
+        int gene_location = rand()%POPULATION_SIZE;
+        int mutated_location = rand()%GENE_SIZE;
+        vector<GENE>::iterator it = this->population.begin() + gene_location;
+        // 保護好基因
+        if (it->adaptive_value = this->best_one_value)
+            continue;
+        it->gene[mutated_location] = rand()%(GENE_MAX-GENE_MIN+1) - (GENE_MAX-GENE_MIN)/2;
+    }
+}
+
+bool GA::is_stop() {
+    vector<GENE>::iterator it = this->population.begin();
+    for (int i = 0; i < POPULATION_SIZE; i++) {
+        if (this->best_one_value != it[i].adaptive_value)
+            return false;
+    }
+    return true;
+}

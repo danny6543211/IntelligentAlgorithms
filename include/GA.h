@@ -20,6 +20,12 @@ class GA {
         double find_the_best();
         // 排序基因大小
         void sort();
+        // 更新適應值
+        void update_adaptive_value();
+        // 變異運算
+        void genetic_variation();
+        // 使否停止
+        bool is_stop();
         // 種群
         vector<GENE> population;
         // 種群中最好的那個基因的適應值
