@@ -29,5 +29,5 @@ class GA {
         // 種群
         vector<GENE> population;
         // 種群中最好的那個基因的適應值
-        int best_one_value;
+        double best_one_value;
 };
