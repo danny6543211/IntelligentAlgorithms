@@ -1,0 +1,3 @@
+C:/Users/Danny/Desktop/IntelligentAlgorithms/TabuSearch/build/CMakeFiles/Tabu_Search.dir
+C:/Users/Danny/Desktop/IntelligentAlgorithms/TabuSearch/build/CMakeFiles/edit_cache.dir
+C:/Users/Danny/Desktop/IntelligentAlgorithms/TabuSearch/build/CMakeFiles/rebuild_cache.dir

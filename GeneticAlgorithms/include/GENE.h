@@ -23,5 +23,4 @@ class GENE {
         vector<double> gene;
         // 基因的適應值
         double adaptive_value;
-        //
 };
