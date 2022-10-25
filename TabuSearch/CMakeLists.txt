@@ -1,5 +1,0 @@
-cmake_minimum_required(VERSION 3.0)
-project(Tabu_Search)
-set(SRC_LIST src/main.cpp src/TS.cpp )
-include_directories(include)
-add_executable(Tabu_Search ${SRC_LIST})
