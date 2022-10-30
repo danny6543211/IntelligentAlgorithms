@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.0)
+project(TS_city30)
+set(SRC_LIST src/main.cpp src/TS.cpp src/TS.cpp)
+include_directories(include)
+add_executable(TS_city30 ${SRC_LIST})

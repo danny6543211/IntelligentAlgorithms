@@ -1,7 +1,7 @@
 #include "TS.h"
 #include <iostream>
 #define MAX_WEIGHT 120
-#define MAX_MONEY 70        
+#define MAX_MONEY 70
 using namespace std;
 
 TS::TS() {
