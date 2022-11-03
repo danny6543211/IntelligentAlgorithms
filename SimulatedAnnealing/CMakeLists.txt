@@ -1,5 +1,0 @@
-cmake_minimum_required(VERSION 3.0)
-project(Simulated_Annealing)
-set(SRC_LIST src/main.cpp src/SA.cpp)
-include_directories(include)
-add_executable(Simulated_Annealing ${SRC_LIST})
