@@ -47,7 +47,9 @@
         "map": "cpp",
         "ctime": "cpp",
         "iomanip": "cpp",
-        "sstream": "cpp"
+        "sstream": "cpp",
+        "optional": "cpp",
+        "fstream": "cpp"
     },
     "cmake.configureOnOpen": false
 }
